@@ -2,6 +2,7 @@
 
 * Студент: [Александра Тихонова](https://up.htmlacademy.ru/htmlcss/40/user/1498591).
 * Наставник: [Дина Шарипова](https://htmlacademy.ru/profile/id1418957).
+* Сайт: [Мой проект Седона](https://alexandratikhonova.github.io/1498591-sedona-40/).
 
 ---
 
