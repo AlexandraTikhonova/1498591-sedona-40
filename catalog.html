@@ -8,7 +8,7 @@
   <body>
     <header class="page-header">
         <a class="header-logo-link" href="index.html">
-            <img class="header-logo" src="#" alt="логотип Cедоны">
+            <img class="header-logo" src="img/logo.svg" width="138" height="64" alt="логотип Cедоны">
         </a>
         <nav class="naviganion">
             <ul class="navigation-list">
@@ -19,16 +19,18 @@
                     <a class="navigation-link" href="#">О Седоне</a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link" href="inner.html">Гостиницы</a>
+                    <a class="navigation-link" href="catalog.html">Гостиницы</a>
                 </li>
             </ul>
             <ul class="navigation-list naviganion-user">
                 <li class="navigation-user">
-                    <a class="navigation-link" href="#"><span class="visually hidden">Поиск</span>
+                    <a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span>
+                        <img src="img/icons/search.svg" width="64" height="64" alt="поиск">
                     </a>
                 </li>
                 <li class="navigation-user">
                     <a class="navigation-link" href="#"><span class="visually-hidden">Избранные отели:</span>
+                        <img src="img/icons/favorite.svg" height="64" width="64" alt="избранное">
                         <span class="count">12</span>
                     </a>
                 </li>
@@ -41,6 +43,7 @@
     <main class="main-inner">
     <div class="section_filters">
         <header class="header-inner">
+            <img src="img/catalog/filter.jpg" width="1200" height="412" alt="фон">
             <h1>Гостиницы Седоны</h1>
             <ul class="breadcrumbs-list">
                 <li class="breadcrumbs-item">
@@ -100,10 +103,8 @@
             </form>
         </section>
     </div>
-    <section class="search_result">
-        <h2>Найдено гостиниц:38</h2>
-    </section>
     <select class="select-control" aria-label="Сортировка">
+        <h2>Найдено гостиниц:38</h2>
         <option value="cheap">Сначала дешевые</option>
         <option value="expensive">Сначала дорогие</option>
     </select>
@@ -115,7 +116,7 @@
     <ul class="product_list">
         <li class="hotel_card">
             <a class="hotel_card_link" href="#">
-                <img class="hotel_card_image" src="#" alt="Ущелье со звездами">
+                <img class="hotel_card_image" src="img/catalog/1hotel/hotel-1.jpg" width="300" height="212" alt="Ущелье со звездами">
             </a>
             <h2>Amara Resort & Spa</h2>
             <p>Гостиница</p>
@@ -123,13 +124,15 @@
             <a class="show-more" href="#">Подробнее</a>
             <button class="favorite" type="button">в избранное</button>
             <div class="rate_img">
-            <span class="visually-hidden">4 звезды</span>
+                <img src="img/catalog/1hotel/stars1hotel.svg" width="140" height="37" alt="звезды отеля">
+                <span class="visually-hidden">4 звезды</span>
             </div>
+            <img src="img/catalog/1hotel/rate1otel.svg" width="140" height="37" alt="рейтинг отеля">
             <p class="rate">Рейтинг: 8,5</p>
         </li>
         <li class="hotel_card">
             <a class="hotel_card_link" href="#">
-                <img class="hotel_card_image" src="#" alt="Горы с радугой">
+                <img class="hotel_card_image" src="img/catalog/2hotel/hotel-2.jpg" width="300" height="212" alt="Горы с радугой">
             </a>
             <h2>Villas at Poco Diablo</h2>
             <p>Гостиница</p>
@@ -137,13 +140,15 @@
             <a class="show-more" href="#">Подробнее</a>
             <button class="favorite" type="button">в избранное</button>
             <div class="rate_img">
-            <span class="visually-hidden">4 звезды</span>
+                <img src="img/catalog/2hotel/stars2hotel.svg" width="140" height="37" alt="звезды отеля">
+                <span class="visually-hidden">4 звезды</span>
             </div>
+            <img src="img/catalog/2hotel/rate2hotel.svg" width="140" height="37" alt="рейтинг отеля">
             <p class="rate">Рейтинг: 9,2</p>
         </li>
         <li class="hotel_card">
             <a class="hotel_card_link" href="#">
-                <img class="hotel_card_image" src="#" alt="Большая гора">
+                <img class="hotel_card_image" src="img/catalog/3hotel/hotel-3.jpg" width="300" height="212" alt="Большая гора">
             </a>
             <h2>Desert Quail Inn</h2>
             <p>Гостиница</p>
@@ -151,13 +156,15 @@
             <a class="show-more" href="#">Подробнее</a>
             <button class="favorite" type="button">в избранное</button>
             <div class="rate_img">
-            <span class="visually-hidden">3 звезды</span>
+                <img src="img/catalog/3hotel/stars3hotel.svg" width="140" height="37" alt="звезды отеля">
+                <span class="visually-hidden">3 звезды</span>
             </div>
+            <img src="img/catalog/3hotel/rate3hotel.svg" width="140" height="37" alt="рейтинг отеля">
             <p class="rate">Рейтинг: 6,9</p>
         </li>
         <li class="hotel_card">
             <a class="hotel_card_link" href="#">
-                <img class="hotel_card_image" src="#" alt="Гора под звездным небом">
+                <img class="hotel_card_image" src="img/catalog/4hotel/hotel-4.jpg" width="300" height="212" alt="Гора под звездным небом">
             </a>
             <h2>GreenTree Inn</h2>
             <p>Гостиница</p>
@@ -165,8 +172,10 @@
             <a class="show-more" href="#">Подробнее</a>
             <button class="favorite" type="button">в избранное</button>
             <div class="rate_img">
-            <span class="visually-hidden">2 звезды</span>
+                <img src="img/catalog/4hotel/stars4hotel.svg" width="140" height="37" alt="звезды отеля">
+                <span class="visually-hidden">2 звезды</span>
             </div>
+            <img src="img/catalog/4hotel/rate4hotel.svg" width="140" height="37" alt="рейтинг отеля">
             <p class="rate">Рейтинг: 5,0</p>
         </li>
     </ul>
@@ -195,22 +204,29 @@
     </main>
     <footer class="page-footer">
         <h2 class="visually-hidden">Наши социальные сети</h2>
+        <div class social-media>
         <ul class="social-media">
             <li>
-                <a class="vk" href="#"><span class="visually-hidden">Наш ВК</span></a>
+                <a class="vk" href="#"><span class="visually-hidden">Наш ВК</span>
+                <img src="img/footer/social-vk.svg" width="47.33" height="40" alt="иконка вк"></a>
             </li>
             <li>
-                <a class="tg" href="#"><span class="visually-hidden">Наш telegram</span></a>
+                <a class="tg" href="#"><span class="visually-hidden">Наш telegram</span>
+                <img src="img/footer/social-telegram.svg" width="47.33" height="40" alt="иконка телеграм"></a>
             </li>
             <li>
-                <a class="youtube" href="#"><span class="visually-hidden">Наш YouTube</span></a>
-            </li>
-            <li>
-                <a class="contact" href="tel:+78128121212">+7 (812) 812-12-12</a>
-            </li>
-            <li><a class="logo" href="#"><span class="visually-hidden">Логотип разработчика</span></a>
+                <a class="youtube" href="#"><span class="visually-hidden">Наш YouTube</span>
+                <img src="img/footer/social-youtube.svg" width="47.33" height="40" alt="иконка ютуб"></a>
             </li>
         </ul>
+        </div>
+       <div class="contact us">
+                <a class="contact" href="tel:+78128121212"><img src="img/footer/Phone.png" width="331" height="40" alt="номер телефона"></a>
+        </div>
+        <div class="siteproduction">
+            <a class="logo" href="#"><span class="visually-hidden">Логотип разработчика</span>
+            <img src="img/footer/logo_htmlacademy.svg" width="115" height="33" alt="лого разработчика"></a>
+        </div>  
     </footer>
   </body>
 </html>
