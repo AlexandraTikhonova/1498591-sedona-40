@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  color: #000;
+  background-color: #f0f8ff;
+  line-height: 120%;
+  text-align: center;
+}
+
+.navigation a {
+  text-decoration: none; /*почему не работает?*/
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #000;
+  background-color: #f0f8ff;
+}
+
+.navigation-list .navigation-item {
+  list-style-type: none;
+}
+
+.navigation-list .navigation-user {
+  list-style-type: none;
+}
+
+.navigation-user{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  text-transform: uppercase;
+}
+
+.welcome {
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 485px;
+  background-size: 100% auto;
+}
+
+.sedona h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.sedona p {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.advantages h2 {
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.advantages p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.advantages li {
+  list-style-type: none;
+}
+
+.call_to_action h2 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.call_to_action p {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.offers h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.offers li {
+  list-style-type: none;
+}
+
+.offers p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.interesting h2 {
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.interesting p {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.interesting button {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+
+}
+
+.subscribe h2 {
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #f0f8ff;
+
+}
+
+.subscribe p {
+  font-weight: 400;
+  font-size: 22px;  
+  color: #f0f8ff;
+  
+}
+
+.subscribe input {
+  font-weight: 400;
+  font-size: 18px;
+  
+}
+
+.subscribe button {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #f0f8ff;
+ 
+}
+
+.social-media li {
+  list-style-type: none;
+}
+
+.subscribe {
+  background-image: url("../img/Subscribe.jpg");
+  width: 1200px;
+  height: 414,86px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  
+}
+
+.subscribe label {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.subscribe button {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.page-header {
+  color: #000;
+  background-color: #f0f8ff;
+}
+  
+.welcome .main-banner {
+  width: 100%;
+  height: auto;
+}
